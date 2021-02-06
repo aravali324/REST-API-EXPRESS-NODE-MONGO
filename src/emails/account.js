@@ -14,7 +14,7 @@ const sendWelcomeEmail = (email, name) => {
 const sendCancellationEmail = (email, name) => {
   sgMail.send({
     to: email,
-    from: 'r43@gmail.com',
+    from: 'r@gmail.com',
     subject: 'User removed',
     text: `Hey, ${name}, you have deleted your account`,
   });
